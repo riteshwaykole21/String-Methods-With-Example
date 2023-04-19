@@ -12,6 +12,7 @@ namespace StringMethod
         {
             Console.WriteLine("1 : Clone Method Example");
             Console.WriteLine("2 : Concat Method Example");
+            Console.WriteLine("3 : Contains Method Example");
             Console.WriteLine("Enter A Option");
             int Option  = Convert.ToInt32(Console.ReadLine());
             switch (Option)
@@ -23,6 +24,10 @@ namespace StringMethod
                 case 2:
                     ConcatMethod concatMethod = new ConcatMethod();
                     concatMethod.Method();
+                    break;
+                case 3:
+                    ContainsMethod containsMethod = new ContainsMethod();
+                    containsMethod.Number();
                     break;
             }
             Console.ReadLine();

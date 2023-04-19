@@ -11,6 +11,7 @@ namespace StringMethod
         static void Main(string[] args)
         {
             Console.WriteLine("1 : Clone Method Example");
+            Console.WriteLine("2 : Concat Method Example");
             Console.WriteLine("Enter A Option");
             int Option  = Convert.ToInt32(Console.ReadLine());
             switch (Option)
@@ -18,6 +19,10 @@ namespace StringMethod
                 case 1:
                     CloneMethod cloneMethod = new CloneMethod();
                     cloneMethod.Method();
+                    break;
+                case 2:
+                    ConcatMethod concatMethod = new ConcatMethod();
+                    concatMethod.Method();
                     break;
             }
             Console.ReadLine();

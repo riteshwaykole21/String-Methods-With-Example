@@ -16,6 +16,7 @@ namespace StringMethod
             Console.WriteLine("4 : Copy One String Into Another");
             Console.WriteLine("5 : Two String Are Same Not");
             Console.WriteLine("6 : Index Of String Char");
+            Console.WriteLine("7 : Insert Sring In String ");
             Console.WriteLine("Enter A Option");
             int Option  = Convert.ToInt32(Console.ReadLine());
             switch (Option)
@@ -43,6 +44,10 @@ namespace StringMethod
                 case 6:
                     indexOf indexOf = new indexOf();
                     indexOf.Number();
+                    break;
+                case 7:
+                    InsertMethod insertMethod = new InsertMethod();
+                    insertMethod.Number();
                     break;
             }
             Console.ReadLine();

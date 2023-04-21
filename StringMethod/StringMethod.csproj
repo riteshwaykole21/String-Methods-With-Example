@@ -49,6 +49,7 @@
     <Compile Include="CopyMethod.cs" />
     <Compile Include="EqualsMethod.cs" />
     <Compile Include="indexOf.cs" />
+    <Compile Include="InsertMethod.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

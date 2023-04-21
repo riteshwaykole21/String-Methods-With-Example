@@ -14,6 +14,7 @@ namespace StringMethod
             Console.WriteLine("2 : Concat Method Example");
             Console.WriteLine("3 : Contains Method Example");
             Console.WriteLine("4 : Copy One String Into Another");
+            Console.WriteLine("5 : Two String Are Same Not");
             Console.WriteLine("Enter A Option");
             int Option  = Convert.ToInt32(Console.ReadLine());
             switch (Option)
@@ -33,6 +34,10 @@ namespace StringMethod
                 case 4:
                     CopyMethod copyMethod = new CopyMethod();
                     copyMethod.Number();    
+                    break;
+                case 5:
+                    EqualsMethod equalsMethod = new EqualsMethod();
+                    equalsMethod.Number();
                     break;
             }
             Console.ReadLine();

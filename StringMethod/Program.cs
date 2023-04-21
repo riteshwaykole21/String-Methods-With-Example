@@ -18,6 +18,7 @@ namespace StringMethod
             Console.WriteLine("6 : Index Of String Char");
             Console.WriteLine("7 : Insert Sring In String ");
             Console.WriteLine("8 : Replace String Char ");
+            Console.WriteLine("9 : Substring Method");
             Console.WriteLine("Enter A Option");
             int Option  = Convert.ToInt32(Console.ReadLine());
             switch (Option)
@@ -53,6 +54,10 @@ namespace StringMethod
                 case 8:
                     ReplaceMethod replaceMethod = new ReplaceMethod();
                     replaceMethod.Number();
+                    break;
+                case 9:
+                    SubstringMethod substringMethod = new SubstringMethod();
+                    substringMethod.Number();   
                     break;
             }
             Console.ReadLine();

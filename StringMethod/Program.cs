@@ -17,6 +17,7 @@ namespace StringMethod
             Console.WriteLine("5 : Two String Are Same Not");
             Console.WriteLine("6 : Index Of String Char");
             Console.WriteLine("7 : Insert Sring In String ");
+            Console.WriteLine("8 : Replace String Char ");
             Console.WriteLine("Enter A Option");
             int Option  = Convert.ToInt32(Console.ReadLine());
             switch (Option)
@@ -48,6 +49,10 @@ namespace StringMethod
                 case 7:
                     InsertMethod insertMethod = new InsertMethod();
                     insertMethod.Number();
+                    break;
+                case 8:
+                    ReplaceMethod replaceMethod = new ReplaceMethod();
+                    replaceMethod.Number();
                     break;
             }
             Console.ReadLine();

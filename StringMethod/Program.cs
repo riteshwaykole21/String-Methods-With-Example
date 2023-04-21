@@ -15,6 +15,7 @@ namespace StringMethod
             Console.WriteLine("3 : Contains Method Example");
             Console.WriteLine("4 : Copy One String Into Another");
             Console.WriteLine("5 : Two String Are Same Not");
+            Console.WriteLine("6 : Index Of String Char");
             Console.WriteLine("Enter A Option");
             int Option  = Convert.ToInt32(Console.ReadLine());
             switch (Option)
@@ -38,6 +39,10 @@ namespace StringMethod
                 case 5:
                     EqualsMethod equalsMethod = new EqualsMethod();
                     equalsMethod.Number();
+                    break;
+                case 6:
+                    indexOf indexOf = new indexOf();
+                    indexOf.Number();
                     break;
             }
             Console.ReadLine();

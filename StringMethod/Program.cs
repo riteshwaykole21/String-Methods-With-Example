@@ -20,6 +20,7 @@ namespace StringMethod
             Console.WriteLine("8 : Replace String Char ");
             Console.WriteLine("9 : Substring Method");
             Console.WriteLine("10 : Trime Method");
+            Console.WriteLine("11 : String In Upper Case");
             Console.WriteLine("Enter A Option");
             int Option  = Convert.ToInt32(Console.ReadLine());
             switch (Option)
@@ -63,6 +64,10 @@ namespace StringMethod
                 case 10:
                     TrimMethod trimMethod = new TrimMethod();
                     trimMethod.Number();
+                    break;
+                case 11:
+                    ToUpperString toUpperString = new ToUpperString();
+                    toUpperString.Number(); 
                     break;
             }
             Console.ReadLine();

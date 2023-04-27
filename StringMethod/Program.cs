@@ -22,6 +22,7 @@ namespace StringMethod
             Console.WriteLine("10 : Trime Method");
             Console.WriteLine("11 : String In Upper Case");
             Console.WriteLine("12 : String In Lower Case");
+            Console.WriteLine("13 : Splite Method");
             Console.WriteLine("Enter A Option");
             int Option  = Convert.ToInt32(Console.ReadLine());
             switch (Option)
@@ -73,6 +74,10 @@ namespace StringMethod
                 case 12:
                     LowerCase Lower = new LowerCase();
                     Lower.Number();
+                    break;
+                case 13:
+                    SpliteMethod spliteMethod = new SpliteMethod();
+                    spliteMethod.Number();
                     break;
             }
             Console.ReadLine();

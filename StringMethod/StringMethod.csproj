@@ -54,6 +54,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReplaceMethod.cs" />
+    <Compile Include="SpliteMethod.cs" />
     <Compile Include="SubstringMethod.cs" />
     <Compile Include="ToUpperString.cs" />
     <Compile Include="TrimMethod.cs" />
